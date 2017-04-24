@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DebajyotiKaiserApp1
+  host: DebajyotiKaiserApp1
+  disk_quota: 1024M
+  services:
+  - DebajyotiKaiserApp1-cloudantNoSQLDB
